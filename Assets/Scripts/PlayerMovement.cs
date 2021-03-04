@@ -42,9 +42,16 @@ public class PlayerMovement : MonoBehaviour
             speed = walkSpeed;
         }
 
-        if(Input.GetKeyUp(KeyCode.Alpha1))
+
+        if (Input.GetKeyUp(KeyCode.Alpha1)) 
         {
             // do something
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            // jump
+
         }
 
         // -1 and 1
