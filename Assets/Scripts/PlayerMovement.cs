@@ -42,6 +42,11 @@ public class PlayerMovement : MonoBehaviour
             speed = walkSpeed;
         }
 
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            // jump
+        }
+
         // -1 and 1
         float hori = Input.GetAxis("Horizontal");
         float vert = Input.GetAxis("Vertical");
